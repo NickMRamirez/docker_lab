@@ -35,3 +35,7 @@ fi
 # Note that we are NOT exposing a port (6379) on Redis outside of the container network
 docker run --rm -d --name myredis --network mynet redis
 docker run --rm -d --name myapp -p 3000:3000 --network mynet -e "redis_url=myredis" $namespace/$image_name
+
+echo
+echo Command: docker exec -it myredis redis-cli
+echo
