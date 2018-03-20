@@ -2,6 +2,12 @@
 
 Lab for learning about Docker
 
+# Pre-reqs
+
+* Docker for Windows: https://store.docker.com/editions/community/docker-ce-desktop-windows
+* A text editor such as Visual Studio Code: https://code.visualstudio.com/
+* Postman (for sending POST requests to the app): https://www.getpostman.com/apps
+
 ## Hands-on
 
 1. Start a Docker container that uses the `-v` flag to create a volume that serves a node.js app

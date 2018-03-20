@@ -35,3 +35,4 @@ echo "--> $namespace/$image_name:latest"
 echo
 echo Usage:
 echo docker run --rm -d --name myapp -p 3000:3000 $namespace/$image_name
+echo
