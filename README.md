@@ -8,6 +8,15 @@ Lab for learning about Docker
 * A text editor such as Visual Studio Code: https://code.visualstudio.com/
 * Postman (for sending POST requests to the app): https://www.getpostman.com/apps
 
+To speed up the class, please download the Docker images we'll be using ahead of time by using these commands:
+
+```
+docker pull node:alpine
+docker pull redis
+docker pull microsoft/aspnetcore-build:latest
+docker pull microsoft/aspnetcore:latest
+```
+
 ## Hands-on
 
 1. Start a Docker container that uses the `-v` flag to create a volume that serves a node.js app
